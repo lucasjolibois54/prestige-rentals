@@ -2,7 +2,7 @@ import React from 'react'
 
 function Features() {
   return (
-    <div className="mx-auto max-w-screen-2xl">
+    <div className="mx-auto max-w-screen-md">
       <h2 className="text-2xl text-gray-500 mt-36">Convenient Interaction</h2>
       <h1 className="text-8xl font-bold mt-5">Key Features</h1>
       <h2 className="text-2xl mt-10">

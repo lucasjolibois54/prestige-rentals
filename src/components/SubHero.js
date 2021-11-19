@@ -1,13 +1,15 @@
 import React from 'react'
 //import PhoneMockup from '../images/PhoneMockup.png'
 import phone2 from '../images/Phone2.png'
+import phone3 from '../images/front-car.png'
 
 function SubHero() {
     return (
       <div>
       <div id="top" className=" p-0 flex flex-col w-full xl:flex-row md:p-16 mb-4">
          <div className="w-full xl:w-9/12 grid lg:justify-items-center">
-          <img src={phone2} className="pt-16 w-full xl:w-10/12" alt="Phone Mockup" />
+          <img src={phone2} className="hidden xl:block pt-16 w-full xl:w-10/12" alt="Phone Mockup" />
+          <img src={phone3} className="pt-16 w-full xl:hidden" alt="Phone Mockup" />
       </div>
           <div className="flex text-center flex-col w-9/12 px-3 justify-center xl:w-8/12 xl:text-left ">      {/*  PL-10 */}
           <h3 className="text-lg pt-10 text-light-gray mb-3 font-light">

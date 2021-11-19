@@ -4,7 +4,7 @@ import PhoneMockup from '../images/PhoneMockup.png'
 function SubHero() {
     return (
         <div>
-      <h2>nam</h2>
+      <h2>Sub Hero</h2>
     </div>
     )
 }

@@ -1,12 +1,22 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import App from "./components/App";
 import reportWebVitals from "./reportWebVitals";
+import Nav from "./components/Nav";
+import Hero from "./components/Hero";
+import SubHero from "./components/SubHero";
+import MainSection from "./components/MainSection";
+import Features from "./components/Features";
+import Footer from "./components/Footer";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+        <Nav/>
+       <Hero/>
+    <SubHero/>
+    <MainSection/>
+    <Features/>
+    <Footer/>
   </React.StrictMode>,
   document.getElementById("root")
 );

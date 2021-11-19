@@ -21,7 +21,7 @@ function MainSection() {
                 <div className="w-1/6 mx-5 bg-gray-500 rounded-3xl" />
                 <div className="w-1/6 mx-5 bg-gray-500 rounded-3xl" />
             </section>
-            <h2 className="text-2xl text-center mt-12">*Get the <a className="text-blue-500 underline" href="#">app</a> to see
+            <h2 className="text-2xl text-center mt-12">*Get the <a className="text-blue-500 underline" href="https://www.apple.com/app-store/" >app</a> to see
             our entire collection.
             </h2>
         </div>

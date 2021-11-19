@@ -10,7 +10,7 @@ function SubHero() {
           <img src={phone2} className="pt-16 w-full xl:w-10/12" alt="Phone Mockup" />
       </div>
           <div className="flex text-center flex-col w-9/12 px-3 justify-center xl:w-8/12 xl:text-left ">      {/*  PL-10 */}
-          <h3 className="text-lg pt-10 text-gray-400 mb-3 font-light">
+          <h3 className="text-lg pt-10 text-light-gray mb-3 font-light">
           Convenient Interaction
           </h3>
           <h2 className="text-4xl text-dark-blue sm:text-6xl md:text-7xl 2xl:text-8xl font-black font-sans lg:mt-0 mt-4 text-dark-text py-0 mb-8">

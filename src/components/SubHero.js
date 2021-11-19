@@ -1,5 +1,5 @@
 import React from 'react'
-import PhoneMockup from '../images/PhoneMockup.png'
+//import PhoneMockup from '../images/PhoneMockup.png'
 import phone2 from '../images/Phone2.png'
 
 function SubHero() {
@@ -21,8 +21,8 @@ function SubHero() {
           Don’t deny yourself the pleasure of driving the best premium cars from around the world here and now. Don’t deny yourself the pleasure of driving the best premium cars from around the world.
           </p>
           <div className="flex justify-center text-center items-center py-0 xl:justify-start">
-              <a href="#" >
-                  <button href="#" class="shadow-lg bg-black hover:bg-gray-800 text-white font-bold py-2 px-4 rounded-full transition duration-500 ease-in-out transform hover:scale-110">
+              <a href="https://www.apple.com/app-store/">
+                  <button class="shadow-lg bg-black hover:bg-gray-800 text-white font-bold py-2 px-4 rounded-full transition duration-500 ease-in-out transform hover:scale-110">
                    Download App
                   </button>
               </a>

@@ -30,7 +30,7 @@ function Nav() {
       <a href="#help" class="block md:inline-block px-4 py-3 no-underline text-grey-darkest hover:text-grey-darker">Help</a>
     </li>
     <li class="border-t md:border-none">
-      <a href="https://www.apple.com/app-store/" class="block md:inline-block text-center shadow-lg lg:ml-20 bg-black hover:bg-gray-800 text-white font-bold py-2 px-4 rounded-full transition duration-500 ease-in-out transform hover:scale-110">   Download App</a>
+      <a href="https://www.apple.com/app-store/" class="block md:inline-block text-center shadow-lg lg:ml-20 lg:mr-20  bg-black hover:bg-gray-800 text-white font-bold py-2 px-4 rounded-full transition duration-500 ease-in-out transform hover:scale-110">   Download App</a>
     </li>
   </ul>
 </nav>

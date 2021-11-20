@@ -1,10 +1,18 @@
 import React from 'react'
 import Button from '@mui/material/Button'
 
+import grunge from '../images/grunge01.png'
+import bmw from '../images/bmw02.png'
+
 function Hero() {
   return (
     <div className="">
-      <h2 className="text-9xl font-bold text-center mt-10 text-off-gray tracking-widest">
+      <img
+        className="-top-64 absolute bg-center left-0 bg-repeat-x"
+        src={grunge}
+        alt=""
+      />
+      <h2 className="text-9xl font-bold text-center mt-16 text-off-gray tracking-widest">
         PRESTIGE
       </h2>
       <h2 className="text-7xl text-center text-black tracking-wider mt-12">
@@ -22,6 +30,7 @@ function Hero() {
           </Button>
         </div>
       </div>
+      <img id="bmw" className="bg-center w-1/2" src={bmw} alt="" />
     </div>
   )
 }

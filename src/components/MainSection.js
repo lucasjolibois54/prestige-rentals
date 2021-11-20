@@ -3,13 +3,13 @@ import React from 'react'
 function MainSection() {
   return (
     <div className="">
-      <h2 className="md:text-2xl text-center text-gray-500 border-2 sm:text-md">
+      <h2 className="md:text-1xl sm:text-xl xs:text-md text-center text-gray-500 border-2 sm:text-md">
         Convenient Interaction
       </h2>
-      <h1 className="lg:text-8xl md:text-6xl sm:text-5xl xs:text-4xl font-bold text-center mt-5">
+      <h1 className="lg:text-7xl md:text-5xl sm:text-4xl xs:text-3xl font-bold text-center mt-5">
         Our Vehicle Fleet
       </h1>
-      <h2 className="md:text-2xl text-center mt-8">
+      <h2 className="md:text-xl sm:text-lg xs:text-sm text-center mt-8 w-80 mx-auto">
         We provide our customers with the most incredible driving emotions.
         <br></br>
         That's why we only have world-class cars in our fleet.

@@ -11,7 +11,7 @@ import Footer from './components/Footer'
 
 ReactDOM.render(
   <React.StrictMode>
-    <div className="mx-auto justify-center max-w-screen-md">
+    <div className="mx-auto justify-center max-w-screen-2xl">
       <Nav />
       <Hero />
       <SubHero />

@@ -2,6 +2,10 @@ module.exports = {
   purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    letterSpacing: {
+      widest: '.5em',
+      wider: '.25em',
+    },
     extend: {
       colors: {
         'dark-blue': '#06080C',

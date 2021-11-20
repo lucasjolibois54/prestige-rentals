@@ -3,15 +3,27 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
 body {
   background-color: #E3E3E3;
+  font-family: 'Poppins', sans-serif;
+}
+
+#grunge {
+  z-index: -1;
+}
+
+#prestige {
+  z-index: -2;
+  opacity: .8;
 }
 
 #bmw {
   position: relative;
   left: 50%;
   transform: translate(-50%, -15%);
-  z-index: -1;
+  z-index: -2;
 }
 
 .contained-btn {

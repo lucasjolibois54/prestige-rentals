@@ -14,8 +14,8 @@ ReactDOM.render(
     <div className="mx-auto justify-center max-w-screen-2xl">
       <Nav />
       <Hero />
-      <SubHero />
       <MainSection />
+      <SubHero />
       <Features />
       <Footer />
     </div>

@@ -3,16 +3,18 @@ import React from 'react'
 function MainSection() {
   return (
     <div className="">
-      <h2 className="text-2xl text-center text-gray-500 border-2">
+      <h2 className="md:text-2xl text-center text-gray-500 border-2 sm:text-md">
         Convenient Interaction
       </h2>
-      <h1 className="text-8xl font-bold text-center mt-5">Our Vehicle Fleet</h1>
-      <h2 className="text-2xl text-center mt-8">
+      <h1 className="lg:text-8xl md:text-6xl sm:text-5xl xs:text-4xl font-bold text-center mt-5">
+        Our Vehicle Fleet
+      </h1>
+      <h2 className="md:text-2xl text-center mt-8">
         We provide our customers with the most incredible driving emotions.
         <br></br>
         That's why we only have world-class cars in our fleet.
       </h2>
-      <h2 className="text-2xl text-center mt-28 text-gray-500">
+      <h2 className="text-2xl text-center mt-28 text-gray-500 sm:text-xl">
         Featured Collection
       </h2>
       <section className="text-2xl flex justify-center mt-10">

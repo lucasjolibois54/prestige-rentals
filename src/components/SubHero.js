@@ -25,11 +25,21 @@ function SubHero() {
         <br></br>
         That's why we only have world-class cars in our fleet.
       </h2>
-      <div className="flex relative">
-        <img id="phone01" className="bg-center w-1/4" src={phone01} alt="" />
-        <img id="phone02" className="bg-center w-1/4" src={phone02} alt="" />
+      <div className="flex">
+        <img
+          id="phone01"
+          className="bg-center w-1/4 relative"
+          src={phone01}
+          alt=""
+        />
+        <img
+          id="phone02"
+          className="bg-center w-1/5 absolute"
+          src={phone02}
+          alt=""
+        />
       </div>
-      <div className="relative">
+      <div className="mx-1 flex mt-0 justify-center">
         <Button className="outlined-btn-premium" variant="outlined">
           Learn more
         </Button>

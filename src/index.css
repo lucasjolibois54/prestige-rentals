@@ -7,15 +7,24 @@ body {
   background-color: #E3E3E3;
 }
 
+#bmw {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, -15%);
+  z-index: -1;
+}
+
 .contained-btn {
   background-color: #245DD9!important;
   text-transform: capitalize!important;
+  z-index: 10;
 }
 
 .outlined-btn {
   color: #444444!important;
   text-transform: capitalize!important;
   border-color: #444444!important;
+  z-index: 10;
 }
 
 @media (max-width: 767px) {

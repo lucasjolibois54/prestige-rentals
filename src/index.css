@@ -10,6 +10,13 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+#phone01 {
+  position: absolute;
+  left: 44%;
+  transform: translate(-50%, -15%);
+  z-index: -2;
+}
+
 #grunge {
   z-index: -1;
 }
@@ -17,6 +24,13 @@ body {
 #prestige {
   z-index: -2;
   opacity: .8;
+}
+
+#phone02 {
+  position: absolute;
+  left: 56%;
+  transform: translate(-50%, -15%);
+  z-index: -2;
 }
 
 #bmw {
@@ -33,6 +47,14 @@ body {
 }
 
 .outlined-btn {
+  color: #444444!important;
+  text-transform: capitalize!important;
+  border-color: #444444!important;
+  z-index: 10;
+}
+
+.outlined-btn-premium {
+  position: relative;
   color: #444444!important;
   text-transform: capitalize!important;
   border-color: #444444!important;

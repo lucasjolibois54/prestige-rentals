@@ -3,6 +3,14 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  background-color: #E3E3E3;
+}
+
+.contained-btn {
+  background-color: #245DD9!important;
+}
+
 @media (max-width: 767px) {
     .navicon {
       width: 1.125em;

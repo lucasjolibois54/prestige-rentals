@@ -3,7 +3,7 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     letterSpacing: {
-      widest: '.5em',
+      widest: '.25em',
       wider: '.25em',
     },
     extend: {
@@ -12,7 +12,7 @@ module.exports = {
         'light-gray': '#A2A2A2',
         'off-gray': '#B1B1B1',
         'electric-blue': '#245DD9',
-        'brown-text':'#342D23',
+        'brown-text': '#342D23',
       },
     },
   },

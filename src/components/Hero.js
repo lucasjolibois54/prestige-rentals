@@ -8,11 +8,15 @@ function Hero() {
   return (
     <div className="">
       <img
+        id="grunge"
         className="-top-64 absolute bg-center left-0 bg-repeat-x"
         src={grunge}
         alt=""
       />
-      <h2 className="text-9xl font-bold text-center mt-16 text-off-gray tracking-widest">
+      <h2
+        id="prestige"
+        className="text-9xl font-semibold text-center mt-16 text-off-gray tracking-widest"
+      >
         PRESTIGE
       </h2>
       <h2 className="text-7xl text-center text-black tracking-wider mt-12">

@@ -11,7 +11,6 @@ body {
 }
 
 #phone01 {
-  position: absolute;
   left: 44%;
   transform: translate(-50%, -15%);
   z-index: -2;
@@ -27,7 +26,6 @@ body {
 }
 
 #phone02 {
-  position: absolute;
   left: 56%;
   transform: translate(-50%, -15%);
   z-index: -2;
@@ -54,11 +52,9 @@ body {
 }
 
 .outlined-btn-premium {
-  position: relative;
   color: #444444!important;
   text-transform: capitalize!important;
   border-color: #444444!important;
-  z-index: 10;
 }
 
 @media (max-width: 767px) {

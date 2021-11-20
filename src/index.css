@@ -9,6 +9,13 @@ body {
 
 .contained-btn {
   background-color: #245DD9!important;
+  text-transform: capitalize!important;
+}
+
+.outlined-btn {
+  color: #444444!important;
+  text-transform: capitalize!important;
+  border-color: #444444!important;
 }
 
 @media (max-width: 767px) {

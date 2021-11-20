@@ -15,11 +15,11 @@ function Hero() {
       />
       <h2
         id="prestige"
-        className="text-9xl font-semibold text-center mt-16 text-off-gray tracking-widest"
+        className="text-9xl font-semibold text-center mt-24 text-off-gray tracking-widest"
       >
         PRESTIGE
       </h2>
-      <h2 className="text-7xl text-center text-black tracking-wider mt-12">
+      <h2 className="text-7xl text-center text-black tracking-wider mt-4">
         CAR RENTAL
       </h2>
       <div className="flex mt-8 justify-center">

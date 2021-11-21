@@ -9,7 +9,7 @@ function MainSection() {
       <h1 className="lg:text-7xl md:text-5xl sm:text-4xl xs:text-3xl font-bold text-center mt-5">
         Our Vehicle Fleet
       </h1>
-      <h2 className="md:text-xl sm:text-lg xs:text-sm text-center mt-8 w-80 mx-auto">
+      <h2 className="md:text-xl sm:text-lg xs:text-sm text-center mt-8 w-80 md:w-full mx-auto">
         We provide our customers with the most incredible driving emotions.
         <br></br>
         That's why we only have world-class cars in our fleet.

@@ -1,8 +1,11 @@
 import React from 'react'
 
+//fleet pictures
+import bmw01 from '../images/bmwX6-01.jpg'
+
 function MainSection() {
   return (
-    <div className="">
+    <section>
       <h2 className="md:text-1xl sm:text-xl xs:text-md text-center text-gray-500 border-2 sm:text-md">
         Convenient Interaction
       </h2>
@@ -18,15 +21,64 @@ function MainSection() {
         Featured Collection
       </h2>
       <section className="text-2xl flex justify-center mt-10">
-        <div className=" w-1/4 h-56 mx-5 bg-gray-500 rounded-3xl" />
-        <div className=" w-1/4 h-56 mx-5 bg-gray-500 rounded-3xl" />
-        <div className=" w-1/4 h-56 mx-5 bg-gray-500 rounded-3xl" />
+        <div className=" w-1/4 mx-5 border-4 border-blue-500 rounded-3xl">
+          <img
+            id="fleet"
+            className="bg-center rounded-3xl w-full"
+            src={bmw01}
+            alt=""
+          />
+        </div>
+        <div className=" w-1/4 mx-5 border-4 border-blue-500 rounded-3xl">
+          <img
+            id="fleet"
+            className="bg-center rounded-3xl w-full"
+            src={bmw01}
+            alt=""
+          />
+        </div>
+        <div className=" w-1/4 mx-5 border-4 border-blue-500 rounded-3xl">
+          <img
+            id="fleet"
+            className="bg-center rounded-3xl w-full"
+            src={bmw01}
+            alt=""
+          />
+        </div>
       </section>
       <section className="text-2xl flex justify-center mt-8">
-        <div className="w-1/6 h-56 mx-5 bg-gray-500 rounded-3xl" />
-        <div className="w-1/6 mx-5 bg-gray-500 rounded-3xl" />
-        <div className="w-1/6 mx-5 bg-gray-500 rounded-3xl" />
-        <div className="w-1/6 mx-5 bg-gray-500 rounded-3xl" />
+        <div className="w-1/6 mx-5 border-4 border-blue-500 rounded-3xl">
+          <img
+            id="fleet"
+            className="bg-center rounded-3xl w-full"
+            src={bmw01}
+            alt=""
+          />
+        </div>
+        <div className="w-1/6 mx-5 border-4 border-blue-500 rounded-3xl">
+          <img
+            id="fleet"
+            className="bg-center rounded-3xl w-full"
+            src={bmw01}
+            alt=""
+          />
+        </div>
+        <div className="w-1/6 mx-5 border-4 border-blue-500 rounded-3xl">
+          <img
+            id="fleet"
+            className="bg-center rounded-3xl w-full"
+            src={bmw01}
+            alt=""
+          />
+        </div>
+        <div className="w-1/6 mx-5 border-4 border-blue-500 rounded-3xl">
+          <img
+            id="fleet"
+            className="bg-center rounded-3xl w-full"
+            src={bmw01}
+            alt=""
+          />
+        </div>
       </section>
       <h2 className="text-2xl text-center mt-12 mb-56">
         *Get the{' '}
@@ -38,7 +90,7 @@ function MainSection() {
         </a>{' '}
         to see our entire collection.
       </h2>
-    </div>
+    </section>
   )
 }
 

@@ -25,7 +25,7 @@ function SubHero() {
       >
         Premium App
       </h1>
-      <h2 className="md:text-xl sm:text-lg xs:text-sm w-80 mx-auto text-center mt-8 mb-16">
+      <h2 className="md:text-xl sm:text-lg xs:text-sm w-80 md:w-full mx-auto text-center mt-8 mb-16">
         We provide our customers with the most incredible driving emotions.
         <br></br>
         That's why we only have world-class cars in our fleet.

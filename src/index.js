@@ -2,7 +2,6 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import './index.css'
 import reportWebVitals from './reportWebVitals'
-import ScrollSnap from 'scroll-snap'
 
 import Nav from './components/Nav'
 import Hero from './components/Hero'
@@ -11,26 +10,7 @@ import MainSection from './components/MainSection'
 import Features from './components/Features'
 import Footer from './components/Footer'
 
-function callback() {
-  console.log('snapped')
-}
-
 class App extends React.Component {
-  container = React.createRef()
-
-  bindScrollSnap() {
-    const element = this.container.current
-    const snapElement = new ScrollSnap(element, {
-      snapDestinationY: '110%',
-    })
-
-    snapElement.bind(callback)
-  }
-
-  componentDidMount() {
-    this.bindScrollSnap()
-  }
-
   render() {
     return (
       <div id="container" ref={this.container} className="">

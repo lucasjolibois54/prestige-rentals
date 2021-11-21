@@ -6,7 +6,7 @@ import bmw from '../images/bmw02.png'
 
 function Hero() {
   return (
-    <div className="">
+    <section>
       <img
         id="grunge"
         className="-top-64 absolute bg-center left-0 bg-repeat-x"
@@ -35,7 +35,7 @@ function Hero() {
         </div>
       </div>
       <img id="bmw" className="bg-center w-1/2" src={bmw} alt="" />
-    </div>
+    </section>
   )
 }
 

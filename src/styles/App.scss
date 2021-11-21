@@ -1,6 +1,7 @@
 
 body {
   height: 100%;
+  overscroll-behavior-y: none;
 }
 
 .App {
@@ -11,5 +12,9 @@ body {
   width: 100%;
   overflow: hidden;
   pointer-events: none;
+  .scroll {
+    padding: 2vh 0;
+    pointer-events: none;
+  }
 
 }

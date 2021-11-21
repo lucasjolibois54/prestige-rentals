@@ -1,10 +1,6 @@
-html,
-body {
-  height: 100%;
-}
 
 body {
-  overscroll-behavior-y: none;
+  height: 100%;
 }
 
 .App {
@@ -15,31 +11,5 @@ body {
   width: 100%;
   overflow: hidden;
   pointer-events: none;
-  .scroll {
-    padding: 2vh 0;
-    pointer-events: none;
-  }
-  .img-container {
-    width: 700px;
-    height: 420px;
-    overflow: hidden;
-    position: relative;
-    margin: 400px auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    &:nth-child(1) {
-      margin-top: 200px;
-    }
-    &:last-child {
-      margin-bottom: 200px;
-    }
-    @media (max-width: 480px) {
-      width: 95%;
-    }
-    img {
-      width: 100%;
-      position: absolute;
-    }
-  }
+
 }

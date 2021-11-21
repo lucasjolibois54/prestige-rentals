@@ -29,6 +29,7 @@ function App() {
   // Run scrollrender once page is loaded.
   useEffect(() => {
     requestAnimationFrame(() => skewScrolling())
+    // eslint-disable-next-line
   }, [])
 
   //set the height of the body.

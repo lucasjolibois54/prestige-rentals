@@ -11,10 +11,10 @@ body {
   height: 100%;
   width: 100%;
   overflow: hidden;
-  pointer-events: none;
+  pointer-events: all;
   .scroll {
     padding: 2vh 0;
-    pointer-events: none;
+    pointer-events: all;
   }
 
 }

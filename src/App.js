@@ -9,6 +9,7 @@ import Hero from './components/Hero'
 import SubHero from './components/SubHero'
 import MainSection from './components/MainSection'
 import Features from './components/Features'
+import Footer from './components/Footer'
 
 function App() {
   //Hook to grab window size
@@ -74,6 +75,7 @@ function App() {
         <MainSection />
         <SubHero />
         <Features />
+        <Footer />
       </div>
     </div>
   )

@@ -1,7 +1,7 @@
 import React from 'react'
 
 //fleet pictures
-import bmw01 from '../images/bmwX6-01.jpg'
+import bmw01 from '../images/bmwX6-01.webp'
 
 function MainSection() {
   return (

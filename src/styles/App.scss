@@ -9,9 +9,10 @@ body {
   left: 0;
   overflow: hidden;
   pointer-events: all;
-  .scroll {
-    padding: 2vh 0;
+}  
+  
+.scroll {
+  position: fixed;
+  padding: 2vh 0;
     pointer-events: all;
-  }
-
 }

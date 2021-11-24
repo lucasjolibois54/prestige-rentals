@@ -1,10 +1,10 @@
 import React from 'react'
 import Button from '@mui/material/Button'
 
-import grunge from '../images/grunge02.png'
+import grunge from '../images/grunge02.webp'
 
-import phone01 from '../images/phone01.png'
-import phone02 from '../images/phone02.png'
+import phone01 from '../images/phone01.webp'
+import phone02 from '../images/phone02.webp'
 
 function SubHero() {
   return (

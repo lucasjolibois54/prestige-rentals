@@ -1,8 +1,8 @@
 import React from 'react'
 import Button from '@mui/material/Button'
 
-import grunge from '../images/grunge01.png'
-import bmw from '../images/bmw02.png'
+import grunge from '../images/grunge01.webp'
+import bmw from '../images/bmw02.webp'
 
 function Hero() {
   return (

@@ -1,7 +1,6 @@
 import React from 'react'
 
 //fleet pictures
-import bmw01 from '../images/bmwX6-01.webp'
 
 function MainSection() {
   return (
@@ -25,7 +24,9 @@ function MainSection() {
           <img
             id="fleet"
             className="bg-center rounded-3xl w-full"
-            src={bmw01}
+            src={
+              'https://res.cloudinary.com/aeeux/image/upload/v1637761882/Prestige-Rentals/bmwX6-01_rf24bf.webp'
+            }
             alt=""
           />
         </div>
@@ -33,7 +34,9 @@ function MainSection() {
           <img
             id="fleet"
             className="bg-center rounded-3xl w-full"
-            src={bmw01}
+            src={
+              'https://res.cloudinary.com/aeeux/image/upload/v1637761882/Prestige-Rentals/bmwX6-01_rf24bf.webp'
+            }
             alt=""
           />
         </div>
@@ -41,7 +44,9 @@ function MainSection() {
           <img
             id="fleet"
             className="bg-center rounded-3xl w-full"
-            src={bmw01}
+            src={
+              'https://res.cloudinary.com/aeeux/image/upload/v1637761882/Prestige-Rentals/bmwX6-01_rf24bf.webp'
+            }
             alt=""
           />
         </div>
@@ -51,7 +56,9 @@ function MainSection() {
           <img
             id="fleet"
             className="bg-center rounded-3xl w-full"
-            src={bmw01}
+            src={
+              'https://res.cloudinary.com/aeeux/image/upload/v1637761882/Prestige-Rentals/bmwX6-01_rf24bf.webp'
+            }
             alt=""
           />
         </div>
@@ -59,7 +66,9 @@ function MainSection() {
           <img
             id="fleet"
             className="bg-center rounded-3xl w-full"
-            src={bmw01}
+            src={
+              'https://res.cloudinary.com/aeeux/image/upload/v1637761882/Prestige-Rentals/bmwX6-01_rf24bf.webp'
+            }
             alt=""
           />
         </div>
@@ -67,7 +76,9 @@ function MainSection() {
           <img
             id="fleet"
             className="bg-center rounded-3xl w-full"
-            src={bmw01}
+            src={
+              'https://res.cloudinary.com/aeeux/image/upload/v1637761882/Prestige-Rentals/bmwX6-01_rf24bf.webp'
+            }
             alt=""
           />
         </div>
@@ -75,7 +86,9 @@ function MainSection() {
           <img
             id="fleet"
             className="bg-center rounded-3xl w-full"
-            src={bmw01}
+            src={
+              'https://res.cloudinary.com/aeeux/image/upload/v1637761882/Prestige-Rentals/bmwX6-01_rf24bf.webp'
+            }
             alt=""
           />
         </div>

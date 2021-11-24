@@ -1,16 +1,15 @@
 import React from 'react'
 import Button from '@mui/material/Button'
 
-import grunge from '../images/grunge01.webp'
-import bmw from '../images/bmw02.webp'
-
 function Hero() {
   return (
     <section>
       <img
         id="grunge"
         className="-top-64 absolute bg-center left-0 bg-repeat-x"
-        src={grunge}
+        src={
+          'https://res.cloudinary.com/aeeux/image/upload/v1637761881/Prestige-Rentals/grunge01_fulyey.webp'
+        }
         alt=""
       />
       <h2
@@ -34,7 +33,14 @@ function Hero() {
           </Button>
         </div>
       </div>
-      <img id="bmw" className="bg-center w-1/2" src={bmw} alt="" />
+      <img
+        id="bmw"
+        className="bg-center w-1/2"
+        src={
+          'https://res.cloudinary.com/aeeux/image/upload/v1637761881/Prestige-Rentals/bmw02_umqmgw.webp'
+        }
+        alt=""
+      />
     </section>
   )
 }

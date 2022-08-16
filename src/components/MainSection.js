@@ -1,6 +1,11 @@
 import React from 'react'
 
-//fleet pictures
+// pictures
+//BMW
+import BMWX601 from '../images/bmwX6-01.webp'
+import BMWX602 from '../images/bmwX6-02.webp'
+import BMWX603 from '../images/bmwX6-03.webp'
+//BMW
 
 function MainSection() {
   return (
@@ -24,9 +29,7 @@ function MainSection() {
           <img
             id="fleet"
             className="bg-center rounded-3xl w-full "
-            src={
-              'https://res.cloudinary.com/aeeux/image/upload/v1637761882/Prestige-Rentals/bmwX6-01_rf24bf.webp'
-            }
+            src={BMWX601}
             alt=""
           />
         </div>
@@ -34,9 +37,7 @@ function MainSection() {
           <img
             id="fleet"
             className="bg-center rounded-3xl w-full"
-            src={
-              'https://res.cloudinary.com/aeeux/image/upload/v1637766767/Prestige-Rentals/carpixel.net-2021-mercedes-amg-gls-63-us-98210-hd_ft97q9.webp'
-            }
+            src={BMWX603}
             alt=""
           />
         </div>
@@ -44,14 +45,12 @@ function MainSection() {
           <img
             id="fleet"
             className="bg-center rounded-3xl w-full"
-            src={
-              'https://res.cloudinary.com/aeeux/image/upload/v1637767211/Prestige-Rentals/carpixel.net-2018-mercedes-benz-cls-class-amg-line-76449-hd_zjzkmr.webp'
-            }
+            src={BMWX602}
             alt=""
           />
         </div>
       </section>
-      <section className="text-2xl flex justify-center mt-8">
+      {/* <section className="text-2xl flex justify-center mt-8">
         <div className="w-1/6 mx-5 rounded-3xl">
           <img
             id="fleet"
@@ -92,7 +91,7 @@ function MainSection() {
             alt=""
           />
         </div>
-      </section>
+      </section> */}
       <h2 className="text-2xl text-center mt-12 mb-56">
         *Get the{' '}
         <a

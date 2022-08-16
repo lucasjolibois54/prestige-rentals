@@ -1,15 +1,20 @@
 import React from 'react'
 import Button from '@mui/material/Button'
 
+// pictures
+//Grunge
+import Grunge2 from '../images/grunge02.webp'
+//Phones
+import Phone1 from '../images/phone01.webp'
+import Phone2 from '../images/phone02.webp'
+
 function SubHero() {
   return (
     <div>
       <img
         id="grunge"
         className=" absolute bg-center left-0 bg-repeat-x"
-        src={
-          'https://res.cloudinary.com/aeeux/image/upload/v1637761880/Prestige-Rentals/grunge02_oqymvx.webp'
-        }
+        src={Grunge2}
         alt=""
       />
       <h2 className="md:text-1xl sm:text-xl xs:text-md text-center text-gray-500">
@@ -31,17 +36,13 @@ function SubHero() {
         <img
           id="phone01"
           className="bg-center w-1/4 relative"
-          src={
-            'https://res.cloudinary.com/aeeux/image/upload/v1637761880/Prestige-Rentals/phone01_ec4b4v.webp'
-          }
+          src={Phone1}
           alt=""
         />
         <img
           id="phone02"
           className="bg-center w-1/5 absolute"
-          src={
-            'https://res.cloudinary.com/aeeux/image/upload/v1637761880/Prestige-Rentals/phone02_yzavpm.webp'
-          }
+          src={Phone2}
           alt=""
         />
       </div>

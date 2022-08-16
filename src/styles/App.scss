@@ -2,6 +2,7 @@ html,
 body {
   height: 100%;
   overscroll-behavior-y: none;
+  scroll-behavior: smooth;
 }
 
 .App {

@@ -12,7 +12,6 @@ body {
 }  
 
 .scroll {
-  position: relative;
-  padding: 2vh 0;
-    pointer-events: all;
+  position: fixed;
+  height: calc(2500px + 100%);
 }
